@@ -1,0 +1,90 @@
+# =========================
+# TuneSphere JavaFX Project
+# =========================
+
+# ---- Compiled class files ----
+*.class
+*.log
+
+# ---- Package files ----
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ---- Maven ----
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ---- Gradle ----
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+gradle.properties.lock
+
+# ---- Eclipse IDE ----
+.classpath
+.project
+.settings/
+.loadpath
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+*.iws
+out/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- JavaFX and Native Build Files ----
+*.dll
+*.so
+*.dylib
+*.exe
+
+# ---- Logs / Databases ----
+*.log
+*.sqlite
+*.db
+*.db-journal
+
+# ---- OS-specific files ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ---- Temporary Files ----
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ---- Java Test Results ----
+test-output/
+surefire-reports/
+
+# ---- Application Specific ----
+# Ignore user-specific mood data or local cache (if you add it later)
+data/
+cache/
+.env
+.env.local
+
+# ---- JavaFX Resources ----
+# (Keep your theme CSS and resources!)
+!src/main/resources/light-theme.css
+!src/main/resources/dark-theme.css
+!src/main/resources/
